@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loss and profit calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1>
+            Welcome to the loss and profit calculator
+        </h1>
+        
+        <div>
+            <label for="initial-price">Enter initial price</label>
+            <input type="number" placeholder="Enter the initial price" id="initial-price">
+            <div class="error1 align"> </div>
+        </div>
+        <div>
+            <label for="quantity"> quantity-of-stocks</label>
+            <input type="number" placeholder="Enter the quantity " id="quantity">
+            <div class="error2 align"> </div>
+        </div>
+        <div>
+            <label for="current-price">current-price</label>
+            <input type="number" placeholder="Enter the current price" id="current-price">
+            <div class="error3 align"> </div>
+        </div>
+
+        <button class="btn"> Check output</button>
+        <div class="output">
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

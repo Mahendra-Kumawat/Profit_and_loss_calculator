@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background-color: gold;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h1{
+    padding: 1rem 0;
+    color: rgb(39, 21, 139);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container label{
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    color: white;
+}
+
+.container input{
+    display: block;
+    padding: 10px;
+    margin: 8px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.output{
+    color:  rgba(22, 22, 212, 0.797);
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    margin-top: 1.3rem;
+}
+
+.btn{
+    padding: 0.8rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+
+.btn:hover{
+    background-color: rgba(22, 22, 212, 0.797);
+    color: white;
+}
+
+/* utility classes  */
+.pad{
+    padding: 7px;
+}
+
+.align{
+    text-align: left;
+    /* border: 2px solid red; */
+    padding-left: 10px;
+    color: red;
+    font-weight: bold;
+}
